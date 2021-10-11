@@ -1,0 +1,48 @@
+.display_img {
+  width: 300px;
+  height: 170px;
+  border-radius: 3px;
+}
+.trend_shell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 200px;
+  left: -100px;
+}
+.trend_outer_shell {
+  width: 100%;
+  display: flex;
+ 
+  cursor: pointer;
+}
+.trend_display_content {
+  margin: 0px 50px 30px 50px;
+}
+@media screen and (max-width:450px) {
+  
+  .trend_display_content_time{
+    position: relative;
+   left: -20px;
+  }
+  .trend_outer_shell{
+  
+  
+    font-size: 12px!important;
+    width: 400px;
+  }
+  .trend_display_content{
+    position: relative;
+    left: -8px;   
+  }
+  a{
+    margin-top: 5px;
+  }
+  .trend_shell{
+    position: relative;
+    
+    top: 10vh;
+  }
+ 
+}

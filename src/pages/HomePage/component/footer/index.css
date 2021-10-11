@@ -1,0 +1,38 @@
+.home-footer{
+    display: none;
+}
+@media screen and (max-width:450px) {
+    .home-footer{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 40px;
+        position: relative;
+        top: 10vh;
+       
+       
+    }
+    .footer-top{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .select{
+        margin-left: 4vw;
+        font-size: 14px;
+    }
+    .footer-content{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 14px;
+         font-weight: 500;
+    }
+    .footer_span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}

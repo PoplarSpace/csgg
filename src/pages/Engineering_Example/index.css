@@ -1,0 +1,17 @@
+.Both_Shell{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.inner_shell{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width:1200px;
+    
+}
+@media screen and (max-width:450px) {
+    
+}

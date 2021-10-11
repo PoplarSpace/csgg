@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.middlePart {
+    display: flex;
+    flex-direction: row;
+    float: left;
+   
+    
+}
+
+.companyProfile {
+    padding-left: 252px;
+}
+
+.mid_part_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mid_part_top img {
+    width: 8px;
+    height: 52.39px;
+}
+
+.mid_part_top_text1 {
+    height: 37.9px;
+    font-size: 24px;
+    color: #000000;
+    padding-left: 10px;
+    font-family: PingFang SC;
+}
+
+.mid_part_top_text2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    height: 23.41px;
+    padding-left: 10px;
+    font-family: Microsoft YaHei UI;
+}
+
+.com_pro_text {
+    font-size: 26px;
+    width: 757px;
+    padding-left: 46px;
+    padding-top: 22.61px;
+    font-family: Noto Sans SC;
+}
+
+.com_pro_text p {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-indent: 2em;
+    
+}
+
+.companyProfile button {
+    width: 144px;
+    height: 52.39px;
+    background-color: rgba(35, 115, 200, 1);
+    border: none;
+    border-radius: 2px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+ position: relative;
+ 
+ left:100px;
+    font-family: PingFang SC;
+}
+
+.ln_mb_cu {
+    padding-left: 157px;
+}
+
+.ln_mb_cu img {
+    width: 8px;
+    height: 47px;
+}
+
+.atestNews {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBusiness {
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+}
+
+.ln_mb_cu button {
+    width: 94px;
+    height: 31px;
+    background-color: rgba(35, 115, 200, 1);
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-family: PingFang SC;
+}
+
+.latestNews button {
+    margin-left: 27px;
+}
+
+.mainBusiness button {
+    margin-left: 11px;
+}
+
+.contactUs button {
+    margin-left: 39px;
+}
+
+.ln_mb_cu ul {
+    padding-top: 29px;
+    padding-left: 45px;
+}
+
+.ln_mb_cu ul li {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-family: Microsoft YaHei UI;
+    padding-bottom: 16px;
+    list-style-type: none;
+}
+
+.ln_mb_cu ul li:hover {
+    cursor: pointer;
+    color: rgba(35, 115, 200, 1);
+}
+
+.ln_mb_cu ul li:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(35, 115, 200, 1);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.middlePart button {
+    content: attr(title);
+}
+li{
+    font-family: Noto Sans SC !important;
+}
+@media screen and (max-width:450px) {
+    .middlePart{
+        display: inline-block;
+      
+    }
+    .companyProfile{
+        width: 90vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 1000;
+        
+        line-height:1.2!important;
+        padding-left:0;
+        line-height:1;
+   
+        margin: 0  auto 40px;
+    }
+    .com_pro_text{
+        width: 100%;
+        height: 100%;
+        font-weight: 500;
+        font-size: 16px;
+       
+    }
+    .companyProfile button{
+      position: relative;
+      top: 20px;
+     width: 80px;
+     height: 40px;
+     font-size: 14px;
+     border-radius: 10px;
+    }
+    .ln_mb_cu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .mainBusiness{
+        width: 90vw;
+        position: relative;
+        top: -10px;
+        margin: 0 auto;
+    }
+    .latestNews{
+        width: 90vw;
+        margin: 0 auto;
+    }
+   #newBut{
+       position: relative;
+       width: 60px;
+     height: 40px;
+       top: 180px;
+       left: 32vw;
+       font-size: 14px;
+       border-radius: 10px;
+       display: none;
+   }
+   #busBtb{
+      
+    position: relative;
+    width: 60px;
+     height: 40px;
+    top: 180px;
+    left: 30vw;
+    font-size: 14px;
+    border-radius: 10px;
+    
+   }
+   .contactUs{
+       width: 90vw;
+       position: relative;
+       top: 30px;
+       font-size: 16px;
+       margin-bottom: 50px;
+       font-size: 14px;
+       
+   }
+   #contactBtn{
+    position: relative;
+    width: 60px;
+     height: 40px;
+    top: 200px;
+    left: 32vw;
+    font-size: 14px;
+    border-radius: 10px;
+   }
+   .mid_part_top_text2{
+       position: relative;
+       top: -2px;
+       left: 10px;
+   }
+   .ln_mb_cu ul li{
+       font-size: 12px;
+       font-weight: 500!important;
+   }
+}

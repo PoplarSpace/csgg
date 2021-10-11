@@ -1,25 +1,28 @@
-/*
- * @Author: your name
- * @Date: 2021-03-01 17:10:31
- * @LastEditTime: 2021-03-01 23:29:26
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /react-template/src/index.js
- */
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './assets/css/index.scss';
-import App from './App.jsx';
-import reportWebVitals from './reportWebVitals';
+//移入react核核心库
+import React from 'react'
+//引入reactdom
+import ReactDOM from 'react-dom'
+//引入App组件
+import App from './App'
+import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom'
+import Login from './pages/Login/Login'
+import Admin from './pages/admin/admin'
 
+
+
+//渲染app组件到页面
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <Router>
+<Switch>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+<Route path='/admin' render={routeProps=><Admin{...routeProps}/>}/>
+<Route exact path='/login' component={Login}/>
+<Route  render={routeProps=><App {...routeProps}/>}/>
+
+
+
+<Redirect to="/homepage"/>
+
+</Switch>
+</Router>
+,document.querySelector('#root'))

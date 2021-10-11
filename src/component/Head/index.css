@@ -1,0 +1,161 @@
+html,
+body {
+  height: 100%;
+}
+.ant-input-search-button {
+  height: 2.667vw !important;
+}
+
+.home-header {
+  background: #ffffff;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+.home-logo {
+  position: absolute;
+  height: 136px;
+  width: 134px;
+  left: 181px;
+  top: 23px;
+  background: url(./img/logo.png);
+}
+
+.home-search {
+  position: absolute;
+  height: 36px;
+  width: 347px;
+  left: 1340px;
+  top: 79px;
+  border-radius: 20px;
+  background: rgba(196, 196, 196, 0.5);
+}
+.home-name {
+  position: absolute;
+  height: 45px;
+  width: 438px;
+  left: 322px;
+  top: 74px;
+  font-family: Signika SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  mix-blend-mode: darken;
+}
+.home-menu {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  height: 83px;
+  width: 100%;
+  top: 150px;
+  align-items: center;
+  background: #2373c8 !important;
+}
+.home-menu-item {
+  width: 203px;
+  height: 39px;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.top_back4 {
+  position: absolute;
+  top: 233px;
+  width: 100%;
+  height: 514px;
+}
+
+.ant-menu-item-selected {
+  background-color: #2373c8 !important;
+}
+.ant-input-group-wrapper {
+  width: 20% !important;
+}
+.imgs {
+  height: 514px;
+  width: 1920px;
+}
+.ant-input-group {
+  top: -10px;
+}
+@media screen and (max-width: 450px) {
+  .slick-list {
+    margin-top: 100px;
+    height: 300px;
+  }
+  .ant-input-search-button {
+    height: 5.667vw !important;
+  }
+  .ant-menu ant-menu-root ant-menu-vertical ant-menu-light home-menu {
+    height: 200px !important;
+  }
+  .home-top {
+    height: 100px;
+  }
+  .home-name {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Signika SC;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 14px;
+  }
+  .home-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .ant-menu {
+    margin-top: 30px !important;
+    height: 30px;
+  }
+  .home-menu {
+    height: 40px;
+   
+  }
+  /* .ant-menu-title-content{
+ font-size: 0.2px;
+ width: 46px!important;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */
+  .home-menu-item {
+    width: 50px;
+    height:38px !important;
+    font-size: 0.2px;
+    width: 46px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .home-search {
+    margin-top: 10px;
+  }
+  .ant-input-search-button {
+    height: 20px;
+    width: 20px;
+  }
+  .top_back4 {
+    position: relative;
+    top: -4px;
+  }
+  svg {
+    height: 8px;
+    width: 8px;
+  }
+
+}
