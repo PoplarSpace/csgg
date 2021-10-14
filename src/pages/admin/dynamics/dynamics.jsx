@@ -29,12 +29,12 @@ function Dynamics (props) {
         align:'center'
         ,render:(txt,record,index)=>index+1
     },{
-        title:'内容',
-        dataIndex:'content'
-    },
-    {
         title:'标题',
         dataIndex:'title',
+    },
+    {
+        title:'内容',
+        dataIndex:'content'
       
     },{
         title:'操作',
